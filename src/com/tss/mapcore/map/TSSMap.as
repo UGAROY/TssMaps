@@ -1,16 +1,9 @@
 package com.tss.mapcore.map
 {
-	import com.esri.ags.Map;
 	import com.esri.ags.events.ExtentEvent;
 	import com.esri.ags.geometry.Extent;
 	import com.esri.ags.geometry.MapPoint;
-	import com.esri.ags.geometry.Polygon;
-	import com.google.maps.MapEvent;
 	import com.google.maps.MapMoveEvent;
-	import com.tss.mapcore.events.TSSMapEvent;
-	import com.tss.mapcore.map.TSSEsriMap;
-	import com.tss.mapcore.map.TSSGoogleMap;
-	import com.tss.mapcore.map.TSSGoogleMap3D;
 	import com.tss.mapcore.util.PointTest;
 	
 	import flash.display.Sprite;
@@ -20,10 +13,8 @@ package com.tss.mapcore.map
 	
 	import mx.collections.ArrayCollection;
 	import mx.collections.ArrayList;
-	import mx.core.FlexGlobals;
 	
 	import spark.components.BorderContainer;
-	import spark.components.Panel;
 	import spark.components.RadioButton;
 	import spark.components.RadioButtonGroup;
 	import spark.components.VGroup;
